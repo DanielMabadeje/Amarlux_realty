@@ -1,8 +1,11 @@
 import React from "react";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 export default function interior() {
   return (
     <div>
+      <Header />
       <p className="service_head serv_hd discover_div ">INTERIOR DESIGN </p>
 
       <img
@@ -12,32 +15,63 @@ export default function interior() {
       <div className="discover_div">
         <p className="service_header">ABOUT THE SERVICE</p>
         <p className="service_con">
-          Investing in commercial real estate can offer various benefits,
-          including potential for higher returns, longer leases, and
-          diversification in your real estate portfolio. However, it is essential
-          to conduct thorough research and due diligence before entering this
-          dynamic and competitive market. Commercial real estate transactions
-          often involve detailed negotiations, market analysis, and a deep
-          understanding of local zoning and regulations.
+          At Amarlux, we believe your living space should reflect your unique
+          style and story. Our interior decoration services are designed to
+          transform your house into a beautiful and functional haven you'll
+          love.
         </p>
-
-        <p className="service_con">
-          For businesses, finding the right commercial space is crucial for
-          their operations and success. For investors, selecting the appropriate
-          property type and location is pivotal for achieving financial goals.
-          At Citadel Real Estate, we specialize in guiding clients through the
-          complexities of the commercial real estate market.
-        </p>
-
         <p className="service_header">WHAT’S INCLUDE IN THE SERVICES?</p>
         <p className="service_con">
-          Investing in commercial real estate can offer various benefits,
-          including potential for higher returns, longer leases, and
-          diversification in your real estate portfolio. However, it is essential
-          to conduct thorough research and due diligence before entering this
-          dynamic and competitive market. Commercial real estate transactions
-          often involve detailed negotiations, market analysis, and a deep
-          understanding of local zoning and regulations.
+          <br />
+          <br />
+          1. Personalized Design Consultation: We'll get to know your vision,
+          preferences, and budget. What inspires you? How do you envision using
+          your space?
+          <br />
+          <br />
+          2.Expert Space Planning: From maximizing small spaces to creating open
+          floor plans, Amarlux optimizes your space's functionality and flow.
+          <br />
+          <br />
+          3.Curated Design Aesthetic: We'll collaborate with you to develop a
+          design style that reflects your personality. Whether it's modern
+          minimalism, cozy farmhouse chic, or eclectic boho, we'll bring your
+          vision to life.
+          <br />
+          <br />
+          4.Furniture Selection & Sourcing: We'll help you find the perfect
+          pieces, from statement furniture to functional accessories, ensuring
+          both style and comfort.
+          <br />
+          <br />
+          5.Color & Material Expertise: We'll guide you in selecting color
+          palettes and materials that create a cohesive and visually appealing
+          space.
+          <br />
+          <br />
+          6. Stress-Free Execution: From furniture placement to décor
+          installation, Amarlux takes care of the details, ensuring a smooth and
+          seamless transformation.
+        </p>
+
+        <p className="service_header">BENEFIT?</p>
+        <p>
+          <br />
+          <br />
+          1. Effortless Style: Elevate your space without the hassle of sourcing
+          décor or navigating design trends.
+          <br />
+          <br />
+          2.Functional & Beautiful: Create a space that reflects your taste
+          while maximizing functionality for your lifestyle.
+          <br />
+          <br />
+          3.Expert Guidance: Benefit from Amarachi's expertise in design
+          principles, color theory, and space optimization.
+          <br />
+          <br />
+          4.Stress-Free Transformation: Focus on enjoying your beautiful new
+          space while Amarlux handles the project management.
         </p>
       </div>
       <div className="cta_div flex ">
@@ -52,6 +86,7 @@ export default function interior() {
           </center>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

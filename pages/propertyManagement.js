@@ -7,32 +7,30 @@ export default function propertyManagement() {
       <div className="discover_div">
         <p className="service_header">ABOUT THE SERVICE</p>
         <p className="service_con">
-          Investing in commercial real estate can offer various benefits,
-          including potential for higher returns, longer leases, and
-          diversification in your real estate portfolio. However, it is essential
-          to conduct thorough research and due diligence before entering this
-          dynamic and competitive market. Commercial real estate transactions
-          often involve detailed negotiations, market analysis, and a deep
-          understanding of local zoning and regulations.
-        </p>
-
-        <p className="service_con">
-          For businesses, finding the right commercial space is crucial for
-          their operations and success. For investors, selecting the appropriate
-          property type and location is pivotal for achieving financial goals.
-          At Citadel Real Estate, we specialize in guiding clients through the
-          complexities of the commercial real estate market.
+          Owning an investment property in Lagos can be lucrative, but it also
+          comes with responsibilities. Here at Amarlux, we understand the
+          complexities of property management and are dedicated to taking the
+          weight off your shoulders.
         </p>
 
         <p className="service_header">WHAT’S INCLUDE IN THE SERVICES?</p>
         <p className="service_con">
-          Investing in commercial real estate can offer various benefits,
-          including potential for higher returns, longer leases, and
-          diversification in your real estate portfolio. However, it is essential
-          to conduct thorough research and due diligence before entering this
-          dynamic and competitive market. Commercial real estate transactions
-          often involve detailed negotiations, market analysis, and a deep
-          understanding of local zoning and regulations.
+          1. Effortless Tenant Acquisition: We'll handle the entire process,
+          from marketing your property to screening and selecting qualified
+          tenants.
+          <br />
+          <br />
+          2.Seamless Rent Collection: Say goodbye to late payments. Amarlux
+          ensures timely rent collection and manages all financial transactions.
+          <br />
+          <br />
+          3.Comprehensive Property Maintenance: We'll maintain your property in
+          top condition, scheduling routine maintenance and repairs as needed.
+          We also manage tenant requests and provide 24/7 emergency response.
+          <br />
+          <br />
+          4.Legal Compliance: We'll ensure your property adheres to all local
+          regulations and handle any lease negotiations or tenant disputes.
         </p>
       </div>
       <div className="cta_div flex ">

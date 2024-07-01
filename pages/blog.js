@@ -4,6 +4,7 @@ import { createClient } from "contentful";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import { fetchEntries } from "../lib/contentful";
+import bg from "./components/bg";
 import {
   AnimatePresence,
   motion,
@@ -14,6 +15,7 @@ import {
 
 export default function Blog({ entries }) {
   console.log(entries);
+  
   useEffect(() => {
     const script1 = document.createElement("script");
     script1.src = "https://fast.wistia.com/embed/medias/jz1dh0ty1g.jsonp";
@@ -385,7 +387,9 @@ export default function Blog({ entries }) {
           </div>
         </div>
       </div>
+
       <Footer />
+      <bg/>
     </div>
   );
 }

@@ -7,6 +7,8 @@ import jwt_decode from "jwt-decode";
 import Header from "./components/Header";
 import Link from "next/link";
 import Footer from "./components/Footer";
+import { fetchEntries } from "../lib/contentful";
+
 import {
   AnimatePresence,
   motion,
@@ -15,7 +17,23 @@ import {
   useTransform,
 } from "framer-motion";
 
-export default function Main() {
+export default function Main({ entries }) {
+  useEffect(() => {
+    const script1 = document.createElement("script");
+    script1.src = "https://fast.wistia.com/embed/medias/ql5ktf0le4.jsonp";
+    script1.async = true;
+    document.head.appendChild(script1);
+
+    const script2 = document.createElement("script");
+    script2.src = "https://fast.wistia.com/assets/external/E-v1.js";
+    script2.async = true;
+    document.head.appendChild(script2);
+
+    return () => {
+      document.head.removeChild(script1);
+      document.head.removeChild(script2);
+    };
+  }, []);
   const [userInfo, setUserInfo] = useState(null);
 
   useEffect(() => {
@@ -60,10 +78,10 @@ export default function Main() {
                     We understand the stress of finding the perfect place in
                     Lagos. Between rising prices, competitive offers, and
                     endless paperwork, it can feel overwhelming.
-                    <br/>
-                    <br/>
-                    it doesn't have to be that way. At Amarlux realty, 
-                    We believe the search for your haven shouldn't be a frantic
+                    <br />
+                    <br />
+                    it doesn't have to be that way. At Amarlux realty, We
+                    believe the search for your haven shouldn't be a frantic
                     scramble, but an exciting journey filled with possibilities.
                   </p>
                   <Link href="./listings">
@@ -133,7 +151,7 @@ export default function Main() {
             className=""
           >
             <div className="house_1">
-              <Link href="./property/2">
+              <Link href={`/property/2VUkUPYM4WIIim6TnFbnuh`}>
                 <img className="property_one" src="./land.jpg" />
                 <div className=" flex justify-end">
                   <div className="price_tag">
@@ -163,7 +181,7 @@ export default function Main() {
             }}
             className=""
           >
-            <Link href="./property/1">
+            <Link href="./property/LzFXpHTJ4uORGTid4NMXL">
               <div className="house_2">
                 <img className="property_two" src="./chev.jpg" />
                 <div className=" flex justify-start">
@@ -193,7 +211,7 @@ export default function Main() {
             }}
             className=""
           >
-            <Link href="./property/5">
+            <Link href="./property/LzFXpHTJ4uORGTid4NMXL">
               <div className="house_1">
                 <img className="property_three" src="./fine.jpg" />
                 <div className=" flex justify-end">
@@ -227,13 +245,59 @@ export default function Main() {
             }}
             className=""
           >
-            <iframe
-              className="iframeEmbed"
-              src="https://killerplayer.com/watch/video/50811580-7bb0-46fa-b690-c263e7035a70"
-              frameborder="0"
-              allow="autoplay; gyroscope; picture-in-picture;"
-              allowfullscreen
-            ></iframe>
+            <div
+              className="wistia_responsive_padding"
+              style={{ padding: "56.25% 0 0 0", position: "relative" }}
+            >
+              <div
+                className="wistia_responsive_wrapper"
+                style={{
+                  height: "100%",
+                  left: "0",
+                  position: "absolute",
+                  top: "0",
+                  width: "100%",
+                }}
+              >
+                <div
+                  className="wistia_embed wistia_async_ql5ktf0le4 seo=true videoFoam=true"
+                  style={{
+                    height: "70%",
+                    position: "relative",
+                    width: "70%",
+                  }}
+                >
+                  <div
+                    className="wistia_swatch"
+                    style={{
+                      height: "70%",
+                      left: "0",
+                      opacity: "0",
+                      overflow: "hidden",
+                      position: "absolute",
+                      top: "0",
+                      transition: "opacity 200ms",
+                      width: "70%",
+                    }}
+                  >
+                    <img
+                      src="https://fast.wistia.com/embed/medias/ql5ktf0le4/swatch"
+                      style={{
+                        filter: "blur(5px)",
+                        height: "70%",
+                        objectFit: "contain",
+                        width: "70%",
+                      }}
+                      alt=""
+                      aria-hidden="true"
+                      onLoad={(e) => {
+                        e.currentTarget.parentNode.style.opacity = 1;
+                      }}
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
           </motion.div>
         </div>
         <div className="landingpage_about flex justify-around gap-10">
@@ -294,38 +358,51 @@ export default function Main() {
             duration: 0.6,
             delay: 0.2,
           }}
-          className=""
+          className="frame_div"
         >
-          {" "}
-          <div>
-            <p className="article text-center">Article</p>
-            <div className="grid md:flex frame_div gap-10 mt-20">
-              <div>
-                <img className="blog_img" src="./p1.jpg" />
-                <p className="date_shade">July 18</p>
-                <p className="blog_header">
-                  Real Estate Developers Announce Plans for Innovative Mixed-Use
-                  Project
-                </p>
-              </div>
+          <p
+            className="  blog_head
+ mb-10 mt-20"
+          >
+            ARTICLES{" "}
+          </p>
+          <div className="container mx-auto px-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+              <Link href="/blog/4sHrY2hrVHkydtsMH7g6Vq">
+                <div>
+                  <img
+                    src="https://ik.imagekit.io/juwoncaleb/tipss_8L5dMTXal.webp?updatedAt=1719833361296"
+                    className="blog_thumbnail"
+                  />
+                  <h3 className="blog_title text-xl font-bold">
+                    10 Tips for getting a fair price on a home
+                  </h3>
+                </div>
+              </Link>
+              <Link href="/blog/3iYC7eWsxZeVzd3TiiCEd">
+                <div>
+                  <img
+                    src="https://ik.imagekit.io/juwoncaleb/aas_quiL3GjSc.webp?updatedAt=1719833509692"
+                    className="blog_thumbnail"
+                  />
+                  <h3 className="blog_title text-xl font-bold">
+                    Is it cheaper to buy or build
+                  </h3>
+                </div>
+              </Link>
 
-              <div>
-                <img className="blog_img" src="./p2.jpg" />
-                <p className="date_shade">Aug 20</p>
-                <p className="blog_header">
-                  Real Estate Developers Announce Plans for Innovative Mixed-Use
-                  Project
-                </p>
-              </div>
-
-              <div>
-                <img className="blog_img" src="./p2.jpg" />
-                <p className="date_shade">Nov 9</p>
-                <p className="blog_header">
-                  Real Estate Developers Announce Plans for Innovative Mixed-Use
-                  Project
-                </p>
-              </div>
+              <Link href="/blog/5yfoXApF7xSHsBZ2B543E9">
+                <div>
+                  <img
+                    src="https://ik.imagekit.io/juwoncaleb/pppad_5Bbq21Jhm.webp?updatedAt=1719833508605"
+                    className="blog_thumbnail"
+                  />
+                  <h3 className="blog_title text-xl font-bold">
+                    First time home buyers face challenge in a competitive
+                    market
+                  </h3>
+                </div>
+              </Link>
             </div>
           </div>
         </motion.div>
@@ -333,4 +410,23 @@ export default function Main() {
       <Footer />
     </div>
   );
+}
+
+export async function getStaticProps() {
+  try {
+    const entries = await fetchEntries();
+    console.log("Fetched entries:", entries); // Check what `entries` contains
+    return {
+      props: {
+        entries,
+      },
+    };
+  } catch (error) {
+    console.error("Error fetching entries:", error);
+    return {
+      props: {
+        entries: [],
+      },
+    };
+  }
 }

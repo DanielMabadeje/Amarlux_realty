@@ -1,10 +1,12 @@
 import React from "react";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 export default function inspection() {
   return (
     <div>
+      <Header/>
       <p className="service_head serv_hd discover_div ">HOME INSPECTION </p>
-
       <img
         className="serivce_bg"
         src="https://assets-global.website-files.com/65127446160a3ff5b1e6186c/6530c823ed44cac48dbbfea0_service-main-03.jpg"
@@ -12,34 +14,52 @@ export default function inspection() {
       <div className="discover_div">
         <p className="service_header">ABOUT THE SERVICE</p>
         <p className="service_con">
-          Investing in commercial real estate can offer various benefits,
-          including potential for higher returns, longer leases, and
-          diversification in your real estate portfolio. However, it is essential
-          to conduct thorough research and due diligence before entering this
-          dynamic and competitive market. Commercial real estate transactions
-          often involve detailed negotiations, market analysis, and a deep
-          understanding of local zoning and regulations.
+          Buying a home is a significant investment. Here at Amarlux, we
+          understand the importance of making an informed decision. That's why
+          we offer comprehensive home inspection services designed to give you
+          the peace of mind you deserve before taking the leap.
         </p>
 
-        <p className="service_con">
-          For businesses, finding the right commercial space is crucial for
-          their operations and success. For investors, selecting the appropriate
-          property type and location is pivotal for achieving financial goals.
-          At Citadel Real Estate, we specialize in guiding clients through the
-          complexities of the commercial real estate market.
+        <p className="service_header">
+          WHY CHOOSE AMARACHI FOR YOUR HOME INSPECTION
         </p>
-
-        <p className="service_header">WHAT’S INCLUDE IN THE SERVICES?</p>
         <p className="service_con">
-          Investing in commercial real estate can offer various benefits,
-          including potential for higher returns, longer leases, and
-          diversification in your real estate portfolio. However, it is essential
-          to conduct thorough research and due diligence before entering this
-          dynamic and competitive market. Commercial real estate transactions
-          often involve detailed negotiations, market analysis, and a deep
-          understanding of local zoning and regulations.
+          1. Experienced and Certified: Amarachi is a licensed and certified
+          home inspector with a keen eye for detail. She undergoes regular
+          training to stay up-to-date on the latest building codes and
+          inspection standards.<br/>
+          <br/> 2. Thorough Inspection Reports: Expect a
+          detailed and easy-to-understand report outlining the condition of the
+          property's major systems, including: -Foundation and Structure -Roof &
+          Exterior -Plumbing and Electrical - Systems Heating, Ventilation, and
+          Air Conditioning (HVAC) -Interior Finishes and Appliances
+          <br/>
+          <br/>
+           3.
+          Unwavering Integrity: Amarachi prioritizes transparency and honesty.
+          You'll receive a clear and objective assessment of the property's
+          condition, allowing you to make informed decisions without pressure.
+          <br/>
+          <br/>
+          4.Client-Focused Approach: Amarachi takes the time to explain her
+          findings in a clear and understandable way. You'll have the
+          opportunity to ask questions and gain a comprehensive understanding of
+          the property's condition.
+          <br/>
+          <br/>
+           5.Competitive Rates and Flexible Scheduling:
+          Amarlux offers competitive rates and flexible scheduling to
+          accommodate your needs.
         </p>
+        <p className="service_header">
+        Investing in a home inspection with Amarlux is an investment in your
+        future.{" "}
+      </p>
+      By identifying potential issues early on, you can avoid costly repairs
+      down the road and ensure your new home is a safe and sound haven for you
+      and your loved ones
       </div>
+    
       <div className="cta_div flex ">
         <div className="">
           <p className="amralux_text_head text-center">Amarlux Realty</p>
@@ -52,6 +72,7 @@ export default function inspection() {
           </center>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 }

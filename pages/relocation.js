@@ -1,8 +1,11 @@
 import React from "react";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
 
 export default function Relocation() {
   return (
     <div>
+      <Header/>
       <p className="service_head serv_hd discover_div ">RELOCATION SERVICES </p>
 
       <img
@@ -12,32 +15,55 @@ export default function Relocation() {
       <div className="discover_div">
         <p className="service_header">ABOUT THE SERVICE</p>
         <p className="service_con">
-          Investing in commercial real estate can offer various benefits,
-          including potential for higher returns, longer leases, and
-          diversification in your real estate portfolio. However, it is essential
-          to conduct thorough research and due diligence before entering this
-          dynamic and competitive market. Commercial real estate transactions
-          often involve detailed negotiations, market analysis, and a deep
-          understanding of local zoning and regulations.
-        </p>
-
-        <p className="service_con">
-          For businesses, finding the right commercial space is crucial for
-          their operations and success. For investors, selecting the appropriate
-          property type and location is pivotal for achieving financial goals.
-          At Citadel Real Estate, we specialize in guiding clients through the
-          complexities of the commercial real estate market.
+          Moving to a new city can be exciting, but it can also be overwhelming.
+          Here at Amarlux, we understand the complexities of relocation and are
+          dedicated to making your transition to Lagos seamless and stress-free
         </p>
 
         <p className="service_header">WHAT’S INCLUDE IN THE SERVICES?</p>
         <p className="service_con">
-          Investing in commercial real estate can offer various benefits,
-          including potential for higher returns, longer leases, and
-          diversification in your real estate portfolio. However, it is essential
-          to conduct thorough research and due diligence before entering this
-          dynamic and competitive market. Commercial real estate transactions
-          often involve detailed negotiations, market analysis, and a deep
-          understanding of local zoning and regulations.
+          1. Pre-Move Planning: We'll help you navigate the logistics of your
+          move, from creating a personalized moving timeline to connecting you
+          with reliable movers and packers. We'll offer guidance on budgeting,
+          finding temporary housing, and navigating the local school system if
+          applicable.
+          <br />
+          <br />
+          2. Settling-In Assistance: We'll help you find your bearings in Lagos,
+          from identifying neighborhoods that suit your needs to discovering
+          hidden gems and local resources. We'll connect you with essential
+          services like utilities, internet providers, and cable companies.
+          <br />
+          <br />
+          3. Personalized Support: We understand everyone's relocation needs are
+          unique. Amarlux offers a dedicated relocation specialist who will be
+          your point of contact throughout the process, ready to answer your
+          questions and address any concerns you may have.
+          <br />
+          <br />
+          4. Cultural Integration: Immerse yourself in the vibrant culture of
+          Lagos. We can provide recommendations for local events, language
+          classes, and cultural experiences to help you feel at home in your new
+          community.
+        </p>
+        <p className="service_header">BENEFIT</p>
+        <br/>
+        <br/>
+        <p>
+          1. Reduced Stress: Focus on the excitement of your new adventure while we
+          handle the logistics. 
+          <br/>
+          <br/>
+          2.Local Expertise: Leverage our in-depth knowledge
+          of Lagos to navigate the city with confidence.
+          <br/>
+          <br/>
+          3. Time-Saving Efficiency: Eliminate the time-consuming research and legwork associated with
+          relocation. 
+          <br/>
+          <br/>
+          4.Peace of Mind: Gain the confidence that comes from having
+          a trusted partner by your side every step of the way.
         </p>
       </div>
       <div className="cta_div flex ">
@@ -52,6 +78,7 @@ export default function Relocation() {
           </center>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 }

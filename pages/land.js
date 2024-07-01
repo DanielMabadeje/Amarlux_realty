@@ -12,32 +12,40 @@ export default function land() {
       <div className="discover_div">
         <p className="service_header">ABOUT THE SERVICE</p>
         <p className="service_con">
-          Investing in commercial real estate can offer various benefits,
-          including potential for higher returns, longer leases, and
-          diversification in your real estate portfolio. However, it is essential
-          to conduct thorough research and due diligence before entering this
-          dynamic and competitive market. Commercial real estate transactions
-          often involve detailed negotiations, market analysis, and a deep
-          understanding of local zoning and regulations.
-        </p>
-
-        <p className="service_con">
-          For businesses, finding the right commercial space is crucial for
-          their operations and success. For investors, selecting the appropriate
-          property type and location is pivotal for achieving financial goals.
-          At Citadel Real Estate, we specialize in guiding clients through the
-          complexities of the commercial real estate market.
+          At Amarlux, we understand the complexities of land acquisition in the
+          dynamic Lagos market. Our comprehensive services guide you through
+          every step, ensuring a smooth and successful land purchase for your
+          project.
         </p>
 
         <p className="service_header">WHAT’S INCLUDE IN THE SERVICES?</p>
         <p className="service_con">
-          Investing in commercial real estate can offer various benefits,
-          including potential for higher returns, longer leases, and
-          diversification in your real estate portfolio. However, it is essential
-          to conduct thorough research and due diligence before entering this
-          dynamic and competitive market. Commercial real estate transactions
-          often involve detailed negotiations, market analysis, and a deep
-          understanding of local zoning and regulations.
+          <p>
+            1. Market Research & Site Identification: We leverage our extensive
+            market knowledge to identify potential properties that align with
+            your project's specific needs and budget.
+            <br />
+            <br />
+            2. Due Diligence & Title Verification: Our team conducts thorough
+            due diligence, including title searches and legal verification to
+            ensure a clear and unencumbered property.
+            <br />
+            <br />
+            3.Negotiation & Deal Structuring: We handle negotiations on your
+            behalf, securing the most favorable terms and price for your land
+            acquisition.
+            <br />
+            <br />
+            4.Government Liaison & Permitting: Navigating the complexities of
+            government approvals and permits can be time-consuming. Amarlux
+            takes care of this process, ensuring your acquisition complies with
+            all regulations.
+            <br />
+            <br />
+            5. Zoning & Land Use Analysis: Understanding zoning regulations and
+            potential land use restrictions is crucial. We'll analyze the
+            property's zoning to ensure it aligns with your development plans.
+          </p>
         </p>
       </div>
       <div className="cta_div flex ">

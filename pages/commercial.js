@@ -1,8 +1,11 @@
 import React from "react";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
 
 export default function commercial() {
   return (
     <div>
+      <Header />
       <p className="service_head serv_hd discover_div ">
         COMMERCIAL REAL ESTATE
       </p>
@@ -14,32 +17,43 @@ export default function commercial() {
       <div className="discover_div">
         <p className="service_header">ABOUT THE SERVICE</p>
         <p className="service_con">
-          Investing in commercial real estate can offer various benefits,
-          including potential for higher returns, longer leases, and
-          diversification in your real estate portfolio. However, it is essential
-          to conduct thorough research and due diligence before entering this
-          dynamic and competitive market. Commercial real estate transactions
-          often involve detailed negotiations, market analysis, and a deep
-          understanding of local zoning and regulations.
-        </p>
-
-        <p className="service_con">
-          For businesses, finding the right commercial space is crucial for
-          their operations and success. For investors, selecting the appropriate
-          property type and location is pivotal for achieving financial goals.
-          At Citadel Real Estate, we specialize in guiding clients through the
-          complexities of the commercial real estate market.
+          Does your business dream big? At AMARLUX REALTY, we understand that
+          finding the ideal commercial space is crucial for your company's
+          success in Lagos' dynamic and ever-evolving market. We are your
+          trusted partner in navigating the world of commercial real estate.
+          Leverage Amarachi's expertise to:
         </p>
 
         <p className="service_header">WHAT’S INCLUDE IN THE SERVICES?</p>
         <p className="service_con">
-          Investing in commercial real estate can offer various benefits,
-          including potential for higher returns, longer leases, and
-          diversification in your real estate portfolio. However, it is essential
-          to conduct thorough research and due diligence before entering this
-          dynamic and competitive market. Commercial real estate transactions
-          often involve detailed negotiations, market analysis, and a deep
-          understanding of local zoning and regulations.
+          We are your trusted partner in navigating the world of commercial real
+          estate. Leverage Amarachi's expertise to:
+          <br />
+          <br />
+          1. Unlock a Network of Properties: Gain access to a comprehensive
+          portfolio of commercial spaces, from bustling office buildings and
+          retail storefronts to prime industrial locations and co-working
+          havens.
+          <br />
+          <br />
+          2. Expert Market Knowledge: Benefit from Amarachi's deep understanding of
+          Lagos commercial landscape, including insights into key areas, rental
+          trends, and future growth projections.
+          <br />
+          <br />
+          3. Tailored Search Strategy: We don't believe in a one-size-fits-all
+          approach. We'll work closely with you to understand your specific
+          business needs, budget, and desired location, crafting a personalized
+          search strategy.
+          <br />
+          <br />
+          4. Expert Negotiation: Leverage Amarachi's strong negotiation skills to
+          secure the most favorable lease terms and pricing for your business.
+          <br />
+          <br />
+          5. Seamless Transaction Management: Our team will handle the nitty-gritty
+          details, from lease agreements to inspections, ensuring a smooth and
+          stress-free process.
         </p>
       </div>
       <div className="cta_div flex ">
@@ -54,6 +68,7 @@ export default function commercial() {
           </center>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

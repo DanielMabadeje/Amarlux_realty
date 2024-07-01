@@ -1,8 +1,11 @@
 import React from "react";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 export default function construction() {
   return (
     <div>
+      <Header />
       <p className="service_head serv_hd discover_div ">NEW CONSTRUCTION </p>
 
       <img
@@ -12,32 +15,44 @@ export default function construction() {
       <div className="discover_div">
         <p className="service_header">ABOUT THE SERVICE</p>
         <p className="service_con">
-          Investing in commercial real estate can offer various benefits,
-          including potential for higher returns, longer leases, and
-          diversification in your real estate portfolio. However, it is essential
-          to conduct thorough research and due diligence before entering this
-          dynamic and competitive market. Commercial real estate transactions
-          often involve detailed negotiations, market analysis, and a deep
-          understanding of local zoning and regulations.
-        </p>
-
-        <p className="service_con">
-          For businesses, finding the right commercial space is crucial for
-          their operations and success. For investors, selecting the appropriate
-          property type and location is pivotal for achieving financial goals.
-          At Citadel Real Estate, we specialize in guiding clients through the
-          complexities of the commercial real estate market.
+          At Amarlux, we don't just help you find a property, we help you create
+          it. Our comprehensive new construction services cater to every step of
+          the journey, transforming your vision into a stunning reality.
         </p>
 
         <p className="service_header">WHAT’S INCLUDE IN THE SERVICES?</p>
         <p className="service_con">
-          Investing in commercial real estate can offer various benefits,
-          including potential for higher returns, longer leases, and
-          diversification in your real estate portfolio. However, it is essential
-          to conduct thorough research and due diligence before entering this
-          dynamic and competitive market. Commercial real estate transactions
-          often involve detailed negotiations, market analysis, and a deep
-          understanding of local zoning and regulations.
+          <br />
+          <br />
+          1. Pre-Construction Planning: We'll collaborate with you to define
+          your vision, budget, and desired location. We'll connect you with
+          reputable architects and engineers to bring your ideas to life on
+          paper.
+          <br />
+          <br />
+          2. Navigating Permits & Approvals: Let us handle the complexities of
+          obtaining building permits and necessary approvals from local
+          authorities.
+          <br />
+          <br />
+          3.Expert Project Management: Our team will manage your entire
+          construction project, ensuring it stays on schedule, within budget,
+          and adheres to the highest quality standards.
+          <br />
+          <br />
+          4.Vendor Selection & Coordination: We'll source skilled and reliable
+          contractors, subcontractors, and material suppliers to ensure a
+          seamless construction process.
+          <br />
+          <br />
+          5.Quality Control & Inspections: Our team will conduct regular
+          inspections throughout the construction process, ensuring all work
+          meets industry standards and your expectations.
+          <br />
+          <br />
+          6.Communication & Transparency: Stay informed every step of the way.
+          We'll provide regular updates and progress reports, keeping you
+          involved in the creation of your dream home.
         </p>
       </div>
       <div className="cta_div flex ">
@@ -52,6 +67,7 @@ export default function construction() {
           </center>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

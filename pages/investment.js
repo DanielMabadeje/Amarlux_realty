@@ -1,59 +1,68 @@
-import React from 'react'
+import React from "react";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 export default function investment() {
   return (
     <div>
-    <p className="service_head serv_hd discover_div ">
-    INVESTMENT PROPERTIES
-    </p>
-
-    <img
-      className="serivce_bg"
-      src="https://assets-global.website-files.com/65127446160a3ff5b1e6186c/6530cc96d96e15a8a2fafe9c_service-main-02.jpg"
-    />
-    <div className="discover_div">
-      <p className="service_header">ABOUT THE SERVICE</p>
-      <p className="service_con">
-        Investing in commercial real estate can offer various benefits,
-        including potential for higher returns, longer leases, and
-        diversification in your real estate portfolio. However, it is essential
-        to conduct thorough research and due diligence before entering this
-        dynamic and competitive market. Commercial real estate transactions
-        often involve detailed negotiations, market analysis, and a deep
-        understanding of local zoning and regulations.
+      <Header />
+      <p className="service_head serv_hd discover_div ">
+        INVESTMENT PROPERTIES
       </p>
 
-      <p className="service_con">
-        For businesses, finding the right commercial space is crucial for
-        their operations and success. For investors, selecting the appropriate
-        property type and location is pivotal for achieving financial goals.
-        At Citadel Real Estate, we specialize in guiding clients through the
-        complexities of the commercial real estate market.
-      </p>
-
-      <p className="service_header">WHAT’S INCLUDE IN THE SERVICES?</p>
-      <p className="service_con">
-        Investing in commercial real estate can offer various benefits,
-        including potential for higher returns, longer leases, and
-        diversification in your real estate portfolio. However, it is essential
-        to conduct thorough research and due diligence before entering this
-        dynamic and competitive market. Commercial real estate transactions
-        often involve detailed negotiations, market analysis, and a deep
-        understanding of local zoning and regulations.
-      </p>
-    </div>
-    <div className="cta_div flex ">
-      <div className="">
-        <p className="amralux_text_head text-center">Amarlux Realty</p>
-        <p className="amralux_text text-center">
-          We make home buying and selling, easy and stress free. Ensuring you
-          <br /> get the best deal FAST{" "}
+      <img
+        className="serivce_bg"
+        src="https://assets-global.website-files.com/65127446160a3ff5b1e6186c/6530cc96d96e15a8a2fafe9c_service-main-02.jpg"
+      />
+      <div className="discover_div">
+        <p className="service_header">ABOUT THE SERVICE</p>
+        <p className="service_con">
+          At Amarlux, we understand the power of real estate investment. Our
+          comprehensive investment property services empower you to make
+          informed decisions and maximize your returns on Lagos' thriving
+          property market.
         </p>
-        <center>
-          <button className="contact">Let us Talk</button>
-        </center>
+
+        <p className="service_header">WHAT’S INCLUDE IN THE SERVICES?</p>
+        <p className="service_con">
+          1.Strategic Property Acquisition: We leverage our extensive market
+          knowledge to identify properties with high rental potential and
+          long-term growth prospects.
+          <br />
+          <br />
+          2.Investment Analysis & Due Diligence: Our team conducts thorough
+          analyses, considering factors like rental income, property value,
+          vacancy rates, and maintenance costs, ensuring a sound investment.
+          <br />
+          <br />
+          3.Expert Negotiation & Acquisition: We'll handle negotiations on your
+          behalf, securing the best possible price and terms for your investment
+          property.
+          <br />
+          <br />
+          4.Tenant Management & Rent Collection: Say goodbye to the hassle of
+          managing tenants. Amarlux will handle tenant screening, lease
+          agreements, rent collection, and eviction procedures if necessary.
+          <br />
+          <br />
+          5.Ongoing Property Maintenance: We'll manage routine maintenance and
+          repairs, ensuring your property remains in excellent condition and
+          attracts high-quality tenants.
+        </p>
       </div>
+      <div className="cta_div flex ">
+        <div className="">
+          <p className="amralux_text_head text-center">Amarlux Realty</p>
+          <p className="amralux_text text-center">
+            We make home buying and selling, easy and stress free. Ensuring you
+            <br /> get the best deal FAST{" "}
+          </p>
+          <center>
+            <button className="contact">Let us Talk</button>
+          </center>
+        </div>
+      </div>
+      <Footer />
     </div>
-  </div>
-  )
+  );
 }

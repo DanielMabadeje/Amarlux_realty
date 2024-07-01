@@ -21,6 +21,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 
 async function fetchData(id) {
+ 
   const options = {
     headers: {
       Authorization: `Bearer ${process.env.NEXT_PUBLIC_API_TOKEN}`,
@@ -45,13 +46,16 @@ async function fetchData(id) {
 }
 
 export default function PropertyPage({ entry }) {
-  console.log(entry);
+  const [loading, setLoading] = useState(true);
+  const [property, setProperty] = useState(entry);
   const { isOpen, onOpen, onClose } = useDisclosure();
   const [selectedImageIndex, setSelectedImageIndex] = useState(0);
-
   const router = useRouter();
   const { id } = router.query;
-  const [property, setProperty] = useState(null);
+
+  useEffect(() => {
+    setLoading(false);
+  }, [entry]);
 
   useEffect(() => {
     if (id) {
@@ -65,20 +69,21 @@ export default function PropertyPage({ entry }) {
     }
   }, [id]);
 
-  // if (!property) {
-  //   return (
-  //     <div className="loading_image">
-  //       <center>
-  //         <img className="logo_height" src="../../lg.png" alt="logo" />
-  //       </center>
-  //     </div>
-  //   );
-  // }
+  if (loading) {
+    return (
+      <div className="loading_image">
+        <center>
+          <img className="logo_height" src="../../lg.png" alt="logo" />
+        </center>
+      </div>
+    );
+  }
 
   const openModalWithImage = (index) => {
     setSelectedImageIndex(index);
     onOpen();
   };
+
   const {
     title,
     thumbnail,
@@ -97,14 +102,14 @@ export default function PropertyPage({ entry }) {
     smartHome,
     yearBuilt,
     media,
-
     // ... other fields you want to display
-  } = entry.fields;
+  } = property.fields;
 
   let fee = price.toLocaleString("en-NG", {
     style: "currency",
     currency: "NGN",
   });
+
   return (
     <div>
       <Header />
@@ -177,7 +182,6 @@ export default function PropertyPage({ entry }) {
                           dynamicHeight={true}
                         >
                           {media.map((image) => (
-                            
                             <div key={image.id}>
                               <img
                                 src={`https:${image.fields.file.url}`}
@@ -202,7 +206,7 @@ export default function PropertyPage({ entry }) {
           <div className="flex justify-between mt-8 gap-10">
             <div className="prop_information">
               <div className="propertt_detali ">
-              <p className="gallery">PROPERTY DETAILS</p>
+                <p className="gallery">PROPERTY DETAILS</p>
 
                 <div>
                   <hr className="line" />
@@ -293,17 +297,19 @@ export default function PropertyPage({ entry }) {
                   <div>
                     <p className="amarachi ">Amarachi Odife</p>
                     <p className="kum_bio">
-                      Broker Associate, #1 Realtor in Lagos (2020 & 2021), #3
-                      Realtor in Texas, #35 Realtor in the Country, Member of
-                      Elite25, Member of Luxury League Austin, Member of
-                      Sotheby’s International Realty Market Leaders
+                      With over so many happy client stories, Amarachi is the
+                      face of Lagos luxury real estate market, with unparalleled
+                      passion and commitment to the Austin Lifestyle.
+                      <br/>
+        
+        She understands the value of a real estate investment in a way
+                      that few can articulate, using her uncanny intuition to
+                      maximize returns for her clients. When listing a client’s
+                      home, she evaluates the market opportunities, encouraging
+                      her clients to be smart and patient to achieve the best
+                      outcome.
                     </p>
-                    <p className="kum_bio">
-                      Broker Associate, #1 Realtor in Lagos (2020 & 2021), #3
-                      Realtor in Texas, #35 Realtor in the Country, Member of
-                      Elite25, Member of Luxury League Austin, Member of
-                      Sotheby’s International Realty Market Leaders
-                    </p>
+
                     <Link href="../../contact">
                       <button className="inq_btn">CONTACT AGENT</button>
                     </Link>
