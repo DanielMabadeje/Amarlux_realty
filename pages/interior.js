@@ -17,34 +17,34 @@ export default function interior() {
         <p className="service_con">
           At Amarlux, we believe your living space should reflect your unique
           style and story. Our interior decoration services are designed to
-          transform your house into a beautiful and functional haven you'll
+          transform your house into a beautiful and functional haven you will
           love.
         </p>
         <p className="service_header">WHAT’S INCLUDE IN THE SERVICES?</p>
         <p className="service_con">
           <br />
           <br />
-          1. Personalized Design Consultation: We'll get to know your vision,
+          1. Personalized Design Consultation: We will get to know your vision,
           preferences, and budget. What inspires you? How do you envision using
           your space?
           <br />
           <br />
           2.Expert Space Planning: From maximizing small spaces to creating open
-          floor plans, Amarlux optimizes your space's functionality and flow.
+          floor plans, Amarlux optimizes your space functionality and flow.
           <br />
           <br />
-          3.Curated Design Aesthetic: We'll collaborate with you to develop a
-          design style that reflects your personality. Whether it's modern
-          minimalism, cozy farmhouse chic, or eclectic boho, we'll bring your
+          3.Curated Design Aesthetic: We will collaborate with you to develop a
+          design style that reflects your personality. Whether it is modern
+          minimalism, cozy farmhouse chic, or eclectic boho, we wil bring your
           vision to life.
           <br />
           <br />
-          4.Furniture Selection & Sourcing: We'll help you find the perfect
+          4.Furniture Selection & Sourcing: We will help you find the perfect
           pieces, from statement furniture to functional accessories, ensuring
           both style and comfort.
           <br />
           <br />
-          5.Color & Material Expertise: We'll guide you in selecting color
+          5.Color & Material Expertise: We will guide you in selecting color
           palettes and materials that create a cohesive and visually appealing
           space.
           <br />
@@ -66,7 +66,7 @@ export default function interior() {
           while maximizing functionality for your lifestyle.
           <br />
           <br />
-          3.Expert Guidance: Benefit from Amarachi's expertise in design
+          3.Expert Guidance: Benefit from Amarachi expertise in design
           principles, color theory, and space optimization.
           <br />
           <br />

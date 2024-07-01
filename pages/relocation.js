@@ -22,20 +22,20 @@ export default function Relocation() {
 
         <p className="service_header">WHAT’S INCLUDE IN THE SERVICES?</p>
         <p className="service_con">
-          1. Pre-Move Planning: We'll help you navigate the logistics of your
+          1. Pre-Move Planning: We will help you navigate the logistics of your
           move, from creating a personalized moving timeline to connecting you
-          with reliable movers and packers. We'll offer guidance on budgeting,
+          with reliable movers and packers. We will offer guidance on budgeting,
           finding temporary housing, and navigating the local school system if
           applicable.
           <br />
           <br />
-          2. Settling-In Assistance: We'll help you find your bearings in Lagos,
+          2. Settling-In Assistance: We will help you find your bearings in Lagos,
           from identifying neighborhoods that suit your needs to discovering
-          hidden gems and local resources. We'll connect you with essential
+          hidden gems and local resources. We will connect you with essential
           services like utilities, internet providers, and cable companies.
           <br />
           <br />
-          3. Personalized Support: We understand everyone's relocation needs are
+          3. Personalized Support: We understand everyone relocation needs are
           unique. Amarlux offers a dedicated relocation specialist who will be
           your point of contact throughout the process, ready to answer your
           questions and address any concerns you may have.

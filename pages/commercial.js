@@ -18,16 +18,16 @@ export default function commercial() {
         <p className="service_header">ABOUT THE SERVICE</p>
         <p className="service_con">
           Does your business dream big? At AMARLUX REALTY, we understand that
-          finding the ideal commercial space is crucial for your company's
+          finding the ideal commercial space is crucial for your companys
           success in Lagos' dynamic and ever-evolving market. We are your
           trusted partner in navigating the world of commercial real estate.
-          Leverage Amarachi's expertise to:
+          Leverage Amarachis expertise to:
         </p>
 
         <p className="service_header">WHAT’S INCLUDE IN THE SERVICES?</p>
         <p className="service_con">
           We are your trusted partner in navigating the world of commercial real
-          estate. Leverage Amarachi's expertise to:
+          estate. Leverage Amarachi expertise to:
           <br />
           <br />
           1. Unlock a Network of Properties: Gain access to a comprehensive
@@ -36,18 +36,18 @@ export default function commercial() {
           havens.
           <br />
           <br />
-          2. Expert Market Knowledge: Benefit from Amarachi's deep understanding of
+          2. Expert Market Knowledge: Benefit from Amarachi deep understanding of
           Lagos commercial landscape, including insights into key areas, rental
           trends, and future growth projections.
           <br />
           <br />
-          3. Tailored Search Strategy: We don't believe in a one-size-fits-all
-          approach. We'll work closely with you to understand your specific
+          3. Tailored Search Strategy: We do not believe in a one-size-fits-all
+          approach. We will work closely with you to understand your specific
           business needs, budget, and desired location, crafting a personalized
           search strategy.
           <br />
           <br />
-          4. Expert Negotiation: Leverage Amarachi's strong negotiation skills to
+          4. Expert Negotiation: Leverage Amarachi strong negotiation skills to
           secure the most favorable lease terms and pricing for your business.
           <br />
           <br />

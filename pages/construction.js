@@ -15,7 +15,7 @@ export default function construction() {
       <div className="discover_div">
         <p className="service_header">ABOUT THE SERVICE</p>
         <p className="service_con">
-          At Amarlux, we don't just help you find a property, we help you create
+          At Amarlux, we do not just help you find a property, we help you create
           it. Our comprehensive new construction services cater to every step of
           the journey, transforming your vision into a stunning reality.
         </p>
@@ -24,8 +24,8 @@ export default function construction() {
         <p className="service_con">
           <br />
           <br />
-          1. Pre-Construction Planning: We'll collaborate with you to define
-          your vision, budget, and desired location. We'll connect you with
+          1. Pre-Construction Planning: We will collaborate with you to define
+          your vision, budget, and desired location. We will connect you with
           reputable architects and engineers to bring your ideas to life on
           paper.
           <br />
@@ -40,7 +40,7 @@ export default function construction() {
           and adheres to the highest quality standards.
           <br />
           <br />
-          4.Vendor Selection & Coordination: We'll source skilled and reliable
+          4.Vendor Selection & Coordination: We will source skilled and reliable
           contractors, subcontractors, and material suppliers to ensure a
           seamless construction process.
           <br />
@@ -51,7 +51,7 @@ export default function construction() {
           <br />
           <br />
           6.Communication & Transparency: Stay informed every step of the way.
-          We'll provide regular updates and progress reports, keeping you
+          We will provide regular updates and progress reports, keeping you
           involved in the creation of your dream home.
         </p>
       </div>

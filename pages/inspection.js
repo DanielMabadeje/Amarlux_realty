@@ -15,7 +15,7 @@ export default function inspection() {
         <p className="service_header">ABOUT THE SERVICE</p>
         <p className="service_con">
           Buying a home is a significant investment. Here at Amarlux, we
-          understand the importance of making an informed decision. That's why
+          understand the importance of making an informed decision. That is why
           we offer comprehensive home inspection services designed to give you
           the peace of mind you deserve before taking the leap.
         </p>
@@ -30,21 +30,21 @@ export default function inspection() {
           inspection standards.<br/>
           <br/> 2. Thorough Inspection Reports: Expect a
           detailed and easy-to-understand report outlining the condition of the
-          property's major systems, including: -Foundation and Structure -Roof &
+          property is major systems, including: -Foundation and Structure -Roof &
           Exterior -Plumbing and Electrical - Systems Heating, Ventilation, and
           Air Conditioning (HVAC) -Interior Finishes and Appliances
           <br/>
           <br/>
            3.
           Unwavering Integrity: Amarachi prioritizes transparency and honesty.
-          You'll receive a clear and objective assessment of the property's
+          You will receive a clear and objective assessment of the property's
           condition, allowing you to make informed decisions without pressure.
           <br/>
           <br/>
           4.Client-Focused Approach: Amarachi takes the time to explain her
-          findings in a clear and understandable way. You'll have the
+          findings in a clear and understandable way. You will have the
           opportunity to ask questions and gain a comprehensive understanding of
-          the property's condition.
+          the property condition.
           <br/>
           <br/>
            5.Competitive Rates and Flexible Scheduling:

@@ -80,8 +80,8 @@ export default function Main({ entries }) {
                     endless paperwork, it can feel overwhelming.
                     <br />
                     <br />
-                    it doesn't have to be that way. At Amarlux realty, We
-                    believe the search for your haven shouldn't be a frantic
+                    it does not have to be that way. At Amarlux realty, We
+                    believe the search for your haven should not be a frantic
                     scramble, but an exciting journey filled with possibilities.
                   </p>
                   <Link href="./listings">

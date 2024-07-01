@@ -19,7 +19,7 @@ export default function investment() {
         <p className="service_con">
           At Amarlux, we understand the power of real estate investment. Our
           comprehensive investment property services empower you to make
-          informed decisions and maximize your returns on Lagos' thriving
+          informed decisions and maximize your returns on Lagos thriving
           property market.
         </p>
 
@@ -35,7 +35,7 @@ export default function investment() {
           vacancy rates, and maintenance costs, ensuring a sound investment.
           <br />
           <br />
-          3.Expert Negotiation & Acquisition: We'll handle negotiations on your
+          3.Expert Negotiation & Acquisition: We will handle negotiations on your
           behalf, securing the best possible price and terms for your investment
           property.
           <br />
@@ -45,7 +45,7 @@ export default function investment() {
           agreements, rent collection, and eviction procedures if necessary.
           <br />
           <br />
-          5.Ongoing Property Maintenance: We'll manage routine maintenance and
+          5.Ongoing Property Maintenance: We will manage routine maintenance and
           repairs, ensuring your property remains in excellent condition and
           attracts high-quality tenants.
         </p>

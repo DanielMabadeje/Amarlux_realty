@@ -15,7 +15,7 @@ export default function propertyManagement() {
 
         <p className="service_header">WHAT’S INCLUDE IN THE SERVICES?</p>
         <p className="service_con">
-          1. Effortless Tenant Acquisition: We'll handle the entire process,
+          1. Effortless Tenant Acquisition: We will handle the entire process,
           from marketing your property to screening and selecting qualified
           tenants.
           <br />
@@ -24,12 +24,12 @@ export default function propertyManagement() {
           ensures timely rent collection and manages all financial transactions.
           <br />
           <br />
-          3.Comprehensive Property Maintenance: We'll maintain your property in
+          3.Comprehensive Property Maintenance: We will maintain your property in
           top condition, scheduling routine maintenance and repairs as needed.
           We also manage tenant requests and provide 24/7 emergency response.
           <br />
           <br />
-          4.Legal Compliance: We'll ensure your property adheres to all local
+          4.Legal Compliance: We will ensure your property adheres to all local
           regulations and handle any lease negotiations or tenant disputes.
         </p>
       </div>

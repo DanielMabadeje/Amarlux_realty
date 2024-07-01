@@ -23,7 +23,7 @@ export default function land() {
           <p>
             1. Market Research & Site Identification: We leverage our extensive
             market knowledge to identify potential properties that align with
-            your project's specific needs and budget.
+            your project specific needs and budget.
             <br />
             <br />
             2. Due Diligence & Title Verification: Our team conducts thorough
@@ -43,8 +43,8 @@ export default function land() {
             <br />
             <br />
             5. Zoning & Land Use Analysis: Understanding zoning regulations and
-            potential land use restrictions is crucial. We'll analyze the
-            property's zoning to ensure it aligns with your development plans.
+            potential land use restrictions is crucial. We will analyze the
+            property zoning to ensure it aligns with your development plans.
           </p>
         </p>
       </div>
