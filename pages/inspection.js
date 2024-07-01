@@ -37,7 +37,7 @@ export default function inspection() {
           <br/>
            3.
           Unwavering Integrity: Amarachi prioritizes transparency and honesty.
-          You will receive a clear and objective assessment of the property's
+          You will receive a clear and objective assessment of the propertys
           condition, allowing you to make informed decisions without pressure.
           <br/>
           <br/>
