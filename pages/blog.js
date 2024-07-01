@@ -4,7 +4,6 @@ import { createClient } from "contentful";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import { fetchEntries } from "../lib/contentful";
-import bg from "./components/bg";
 import {
   AnimatePresence,
   motion,
@@ -360,6 +359,7 @@ export default function Blog({ entries }) {
                         duration: 0.6,
                         delay: 0.2,
                       }}
+
                       className=""
                     >
                       {" "}
@@ -389,7 +389,6 @@ export default function Blog({ entries }) {
       </div>
 
       <Footer />
-      <bg/>
     </div>
   );
 }
