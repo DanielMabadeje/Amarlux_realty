@@ -19,7 +19,7 @@ export default function commercial() {
         <p className="service_con">
           Does your business dream big? At AMARLUX REALTY, we understand that
           finding the ideal commercial space is crucial for your companys
-          success in Lagos' dynamic and ever-evolving market. We are your
+          success in Lagos dynamic and ever-evolving market. We are your
           trusted partner in navigating the world of commercial real estate.
           Leverage Amarachis expertise to:
         </p>
