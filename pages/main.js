@@ -57,14 +57,17 @@ export default function Main() {
               <div className="header_div mt-10 ">
                 <div className="header_div_sub">
                   <p className="hero_text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Suspendisse varius enim in eros elementum tristique. Duis
-                    cursus, mi quis viverra ornare, eros dolor interdum nulla,
-                    ut commodo diam libero vitae erat.
+                    We understand the stress of finding the perfect place in
+                    Lagos. Between rising prices, competitive offers, and
+                    endless paperwork, it can feel overwhelming.
+                    <br/>
+                    <br/>
+                    it doesn't have to be that way. At Amarlux realty, 
+                    We believe the search for your haven shouldn't be a frantic
+                    scramble, but an exciting journey filled with possibilities.
                   </p>
                   <Link href="./listings">
-                  <button className="contact_prop">VIEW PROPERTIES</button>
-
+                    <button className="contact_prop">VIEW PROPERTIES</button>
                   </Link>
                 </div>
               </div>
