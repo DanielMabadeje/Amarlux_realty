@@ -58,7 +58,7 @@ export default function Header() {
                         <p className="header_text_menu">HOME</p>
 
             </Link>
-            <Link href='../../listings'>
+            <Link>
                         <p className="header_text_menu">LISTING</p>
 
             </Link>

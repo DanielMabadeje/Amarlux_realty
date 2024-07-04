@@ -23,7 +23,7 @@ export default function Footer() {
           </a>
         </p>
         <p className="mb-4">
-          <a href="tel:+2348162354848">+234-816-235-4848</a>
+          <a href="tel:+2349154373644">+234-915-437-3644</a>
         </p>
         <p>
           <a href="mailto:amarluxrealty@gmail.com">Amarluxrealty@gmail.com</a>
