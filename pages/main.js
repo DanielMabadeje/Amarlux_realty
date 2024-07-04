@@ -84,8 +84,8 @@ export default function Main({ entries }) {
                     believe the search for your haven should not be a frantic
                     scramble, but an exciting journey filled with possibilities.
                   </p>
-                  <Link href="./listings">
-                    <button className="contact_prop">VIEW PROPERTIES</button>
+                  <Link href="https://docs.google.com/forms/d/e/1FAIpQLScebYyvCd3KxCEp-HLXpWjirzfj5yj_qR856BFmWX6ThLtpAA/viewform">
+                    <button className="contact_prop">LET US CHAT</button>
                   </Link>
                 </div>
               </div>
@@ -134,7 +134,7 @@ export default function Main({ entries }) {
             className=""
           >
             <p className="text-center exclusive_header mb-20">
-              Exclusive Listing
+               Listing
             </p>
           </motion.div>
 
@@ -344,7 +344,8 @@ export default function Main({ entries }) {
                 its rewards, but for Amarachi, a life-long relationship with a
                 client brings her genuine personal satisfaction
               </p>
-              <button className="contact">Let us Talk</button>
+              <button className="contact">          <a href="tel:+2349154373644">Let us Talk</a>
+              </button>
             </div>
           </motion.div>
         </div>

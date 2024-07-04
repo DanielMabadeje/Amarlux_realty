@@ -78,7 +78,7 @@ export default function Page({ properties }) {
         className=""
       >
         <p className="exclusive_listings text-center">
-          Exclusive <br /> Listing
+          Listing
         </p>
       </motion.div>
 
@@ -134,8 +134,9 @@ export default function Page({ properties }) {
               <br /> get the best deal FAST{" "}
             </p>
             <center>
-              <button className="contact">Let us Talk</button>
-            </center>
+            <button className="contact">          <a href="tel:+2349154373644">Let us Talk</a>
+            </button>
+                        </center>
           </div>
         </div>
       </motion.div>

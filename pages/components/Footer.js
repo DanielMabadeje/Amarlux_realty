@@ -49,10 +49,10 @@ export default function Footer() {
       <div className="grid mt-4">
         <p className="mb-10 foooter_add">Social</p>
 
-        <Link className="mb-4" href="./service">
+        <Link className="mb-4" href="https://www.instagram.com/amarlux_realty/">
           Intagram
         </Link>
-        <Link className="mb-4" href="./listings">
+        <Link href="https://www.youtube.com/@Amarlux-Realty" className="mb-4" >
           Youtube
         </Link>
         <Link className="mb-4" href="./blog">

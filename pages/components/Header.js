@@ -20,11 +20,9 @@ export default function Header() {
 
   return (
     <div className="mb-6 header_divs">
-      
       <div className="flex header_component justify-between">
-        <Link href='../../'>
-                <img className="logo_height" src="../../lg.png" alt="logo" />
-
+        <Link href="../../">
+          <img className="logo_height" src="../../lg.png" alt="logo" />
         </Link>
         {!open ? (
           <img
@@ -54,46 +52,45 @@ export default function Header() {
           }`}
         >
           <div className="header_menu_selection">
-            <Link href='.../../'>
-                        <p className="header_text_menu">HOME</p>
-
+            <Link href=".../../">
+              <p className="header_text_menu">HOME</p>
             </Link>
-            <Link>
-                        <p className="header_text_menu">LISTING</p>
-
+            <Link href="../../listings">
+              <p className="header_text_menu">LISTING</p>
             </Link>
-            <Link href='../../service'>
-                        <p className="header_text_menu">SERVICES</p>
-
+            <Link href="../../service">
+              <p className="header_text_menu">SERVICES</p>
             </Link>
-            <Link href='../../blog'>
-                        <p className="header_text_menu">MEDIA</p>
-
+            <Link href="../../blog">
+              <p className="header_text_menu">MEDIA</p>
             </Link>
-            <Link href='../../contact'>
-                        <p className="header_text_menu">CONTACT</p>
-
-            </Link>
+            
           </div>
 
           <div className="contact_img">
             <center>
               <p>Follow Me On</p>
               <div className="flex gap-4 justify-center">
-                <img
-                  className="yt_icon"
-                  width="50"
-                  height="64"
-                  src="https://img.icons8.com/glyph-neue/64/FFFFFF/youtube-play.png"
-                  alt="youtube-play"
-                />
-                <img
-                  className="instgram_icon"
-                  width="50"
-                  height="64"
-                  src="https://img.icons8.com/glyph-neue/64/FFFFFF/instagram-new--v1.png"
-                  alt="instagram-new--v1"
-                />
+                <Link href="https://www.youtube.com/@Amarlux-Realty">
+                  <img
+                    className="yt_icon"
+                    width="50"
+                    height="64"
+                    src="https://img.icons8.com/glyph-neue/64/FFFFFF/youtube-play.png"
+                    alt="youtube-play"
+                  />
+                </Link>
+
+                <Link href="https://www.instagram.com/amarlux_realty/">
+                  <img
+                    className="instgram_icon"
+                    width="50"
+                    height="64"
+                    src="https://img.icons8.com/glyph-neue/64/FFFFFF/instagram-new--v1.png"
+                    alt="instagram-new--v1"
+                  />
+                </Link>
+
                 <img
                   width="47"
                   height="40"

@@ -64,8 +64,8 @@ export default function commercial() {
             <br /> get the best deal FAST{" "}
           </p>
           <center>
-            <button className="contact">Let us Talk</button>
-          </center>
+          <button className="contact">          <a href="tel:+2349154373644">Let us Talk</a>
+          </button>          </center>
         </div>
       </div>
       <Footer />
